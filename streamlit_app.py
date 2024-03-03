@@ -47,7 +47,7 @@ def display_smooth_border_plot(x, y, xlabel='X-axis', ylabel='Y-axis', title='Pl
     )
 
 # Load the pre-trained machine learning model
-model = joblib.load("D:\L3T1\BME 310\Project\Finalized Project\Final_iter2.pkl")
+model = joblib.load(Linear_reg_iter2.pkl)
 
 def sample_entropy(signal):
     std_ts = np.std(signal)
