@@ -47,7 +47,7 @@ def display_smooth_border_plot(x, y, xlabel='X-axis', ylabel='Y-axis', title='Pl
     )
 
 # Load the pre-trained machine learning model
-model = joblib.load("https://github.com/sadmansakib715/EHG_term-preterm_detection/blob/ef6400ec6435632216513558e4f4e4898f0ddde6/Linear_reg_iter2.pkl")
+model = joblib.load(https://github.com/sadmansakib715/EHG_term-preterm_detection/blob/ef6400ec6435632216513558e4f4e4898f0ddde6/Linear_reg_iter2.pkl)
 
 def sample_entropy(signal):
     std_ts = np.std(signal)
